@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .header {
+    background-color: #15154d;
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    background-color: rgb(3, 3, 3);
+  }
+  
+  .logo img {
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  nav {
+    flex-grow: 1;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+  }
+  
+  .background-img {
+    width: 100%;
+  }
+  
+  .Products {
+    font-size: 1.5em;
+    color: #15154d;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .product-card {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    width: 23%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .product-title {
+    font-size: 1.2em;
+    margin: 10px 0;
+  }
+  
+  .product-price {
+    color: orange;
+    font-size: 1.1em;
+    margin: 10px 0;
+  }
+  
+  .product-description {
+    font-size: 0.9em;
+    color: #666;
+  }
+  
+  .buy-now {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: orange;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .footer {
+    background-color: #15154d;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer-column {
+    margin: 10px;
+    flex: 1;
+    min-width: 200px;
+  }
+  
+  .footer-column h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  .footer-column p,
+  .footer-column a {
+    color: white;
+    text-decoration: none;
+    line-height: 1.6;
+  }
+  
+  .footer-column a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-bottom {
+    margin-top: 20px;
+    font-size: 0.9em;
+  }
